@@ -13,7 +13,7 @@ This project is a Python script that extracts transaction information from text 
 
 ## Introduction
 
-The Statement Parser is a utility script designed to process text statements and extract specific transaction information such as (#codes, sender names, balances, dates, times, and transaction types). It utilizes regular expressions for pattern matching and pandas for data manipulation. The extracted data is then saved as a CSV file for further analysis. This code uses the structure of mpesa messages sent by Safaricom Mpesa but can be modified to fit any set of data
+The Statement Parser is a utility script designed to process text statements and extract specific transaction information such as ##codes, ##sender ##names, ##balances, ##dates, ##times, and ##transaction types. It utilizes regular expressions for pattern matching and pandas for data manipulation. The extracted data is then saved as a CSV file for further analysis. This code uses the structure of mpesa messages sent by Safaricom Mpesa but can be modified to fit any set of data
 
 ## Features
 
